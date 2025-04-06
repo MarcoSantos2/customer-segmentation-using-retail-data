@@ -6,14 +6,15 @@ authors = [
     {name = "Marco Santos",email = "marco.inctva2@gmail.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.10,<4"
 dependencies = [
     "pandas (>=2.2.3,<3.0.0)",
     "numpy (>=2.2.4,<3.0.0)",
     "matplotlib (>=3.10.1,<4.0.0)",
     "scikit-learn (>=1.6.1,<2.0.0)",
     "seaborn (>=0.13.2,<0.14.0)",
-    "jupyter (>=1.1.1,<2.0.0)"
+    "jupyter (>=1.1.1,<2.0.0)",
+    "yellowbrick (>=1.5,<2.0)"
 ]
 
 
